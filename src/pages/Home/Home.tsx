@@ -1,7 +1,7 @@
 import About from '@/components/About'
-import Hero from './components/Hero'
 import Display from './components/Display'
 import Banner from './components/Banner'
+import Hero from '@/components/Hero'
 
 const Home = () => {
   return (
