@@ -4,10 +4,7 @@ import MobileNavbar from "./MobileNavbar"
 
 const Navbar = () => {
   return (
-    <nav
-      className="sticky top-0 w-full backdrop-blur supports-[backdrop-filter]:bg-background/60 z-50"
-      style={{ background: 'linear-gradient(90deg, #294732 0%, #0F1D16 100%)' }}
-    >
+    <nav className="absolute top-0 w-full  bg-transparent z-50">
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center">
