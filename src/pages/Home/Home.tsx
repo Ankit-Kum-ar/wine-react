@@ -1,11 +1,16 @@
+import About from '@/components/About'
 import Hero from './components/Hero'
+import Display from './components/Display'
+import Banner from './components/Banner'
 
 const Home = () => {
   return (
     
     <div>
       <Hero />
-      <h1>Hello</h1>
+      <About />
+      <Display />
+      <Banner />
     </div>
   )
 }
