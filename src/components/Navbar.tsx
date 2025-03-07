@@ -3,7 +3,7 @@ import DesktopNavbar from "./DesktopNavbar"
 
 const Navbar = () => {
   return (
-    <nav className="sticky top-0 w-full border-b bg-transparent backdrop-blur supports-[backdrop-filter]:bg-background/60 z-50">
+    <nav className="absolute top-0 w-full  bg-transparent z-50">
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center">
