@@ -8,7 +8,7 @@ const DesktopNavbar = () => {
             className={({ isActive }: { isActive: boolean }) =>
                 isActive
                     ? "text-white flex items-center gap-2"
-                    : "text-slate-400 flex items-center gap-2"
+                    : "text-slate-400 flex items-center gap-2 hover:text-white" 
             }
         >
             <span className="hidden lg:inline">Home</span>
@@ -18,7 +18,7 @@ const DesktopNavbar = () => {
             className={({ isActive }: { isActive: boolean }) =>
                 isActive
                     ? "text-white flex items-center gap-2"
-                    : "text-slate-400 flex items-center gap-2"
+                    : "text-slate-400 flex items-center gap-2 hover:text-white"
             }
         >
             <span className="hidden lg:inline">About</span>
@@ -28,7 +28,7 @@ const DesktopNavbar = () => {
             className={({ isActive }: { isActive: boolean }) =>
                 isActive
                     ? "text-white flex items-center gap-2"
-                    : "text-slate-400 flex items-center gap-2"
+                    : "text-slate-400 flex items-center gap-2 hover:text-white"
             }
         >
             <span className="hidden lg:inline">Product</span>
@@ -38,7 +38,7 @@ const DesktopNavbar = () => {
             className={({ isActive }: { isActive: boolean }) =>
                 isActive
                     ? "text-white flex items-center gap-2"
-                    : "text-slate-400 flex items-center gap-2"
+                    : "text-slate-400 flex items-center gap-2 hover:text-white"
             }
         >
             <span className="hidden lg:inline">Blog</span>

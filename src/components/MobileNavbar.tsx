@@ -1,7 +1,6 @@
 import { BookOpen, HomeIcon, MenuIcon, NotebookPen, ShoppingCart } from "lucide-react"
-import { Sheet, SheetContent, SheetHeader, SheetTitle } from "./ui/sheet";
+import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "./ui/sheet";
 import { useState } from "react";
-import { SheetTrigger } from "./ui/sheet";
 import { Button } from "./ui/button";
 import { Link } from "react-router-dom";
 
@@ -20,9 +19,13 @@ const MobileNavbar = () => {
                         <MenuIcon className="h-5 w-5" />
                     </Button>
                 </SheetTrigger>
-                <SheetContent side="right" className="w-[300px]">
+                <SheetContent
+                    side="right"
+                    className="w-[300px]"
+                    customStyle={{ background: 'linear-gradient(90deg, #294732 0%, #0F1D16 100%)', color: '#fff' }}
+                >
                     <SheetHeader>
-                        <SheetTitle>Menu</SheetTitle>
+                        <SheetTitle titleStyle={{ fontSize: "1.25rem", color: "#fff" }}>Menu</SheetTitle>
                     </SheetHeader>
                     <nav className="flex flex-col space-y-4 mt-6">
                         <Button variant="ghost" className="flex items-center gap-3 justify-start" asChild>
