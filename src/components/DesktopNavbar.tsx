@@ -1,22 +1,32 @@
-import { Link } from "react-router-dom"
+import { Link, NavLink } from "react-router-dom"
 import { Button } from "./ui/button"
-import { BookOpen, HomeIcon, Rss, ShoppingCart } from "lucide-react"
+import { BookOpen, HomeIcon, NotebookPen, ShoppingCart } from "lucide-react"
 
 const DesktopNavbar = () => {
   return (
     <div className="hidden md:flex items-center space-x-4">
-        <Button variant="ghost" className="flex items-center gap-2" asChild>
-            <Link to="/">
-                <HomeIcon className="w-4 h-4" />
-                <span className="hidden lg:inline">Home</span>
-            </Link>
-        </Button>
-        <Button variant="ghost" className="flex items-center gap-2" asChild>
-            <Link to="/about">
-                <BookOpen className="w-4 h-4" />
-                <span className="hidden lg:inline">About</span>
-            </Link>
-        </Button>
+        <NavLink 
+            to="/"
+            className={({ isActive }: { isActive: boolean }) =>
+                isActive
+                    ? "text-white flex items-center gap-2"
+                    : "text-slate-400 flex items-center gap-2"
+            }
+        >
+            <HomeIcon className="w-4 h-4" />
+            <span className="hidden lg:inline">Home</span>
+        </NavLink>
+        <NavLink
+            to="/about"
+            className={({ isActive }: { isActive: boolean }) =>
+                isActive
+                    ? "text-white flex items-center gap-2"
+                    : "text-slate-400 flex items-center gap-2"
+            }
+        >
+            <BookOpen className="w-4 h-4" />
+            <span className="hidden lg:inline">About</span>
+        </NavLink>
         <Button variant="ghost" className="flex items-center gap-2" asChild>
             <Link to="/product">
                 <ShoppingCart className="w-4 h-4" />
@@ -25,10 +35,10 @@ const DesktopNavbar = () => {
         </Button>
         <Button variant="ghost" className="flex items-center gap-2" asChild>
             <Link to="/blog">
-                <Rss className="w-4 h-4" />
+                <NotebookPen className="w-4 h-4" />
                 <span className="hidden lg:inline">Blog</span>
             </Link>
-        </Button>      
+        </Button>
     </div>
   )
 }
