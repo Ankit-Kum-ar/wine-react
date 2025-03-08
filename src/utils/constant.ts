@@ -79,3 +79,22 @@ export const carouselImagesContentArray_02 = [
         description: `Bollinger is a Champagne house, a producer of sparkling wines from the Champagne region of France. They produce several labels of Champagne under the Bollinger name, including the vintage Vieilles Vignes Françaises, Grande Année, R.D., and Special Cuvée. Founded in 1829 in Aÿ by Hennequin de Villermont, Paul Renaudin, and Jacques Bollinger, the house continues to be run by members of the Bollinger family.` 
     },
 ]
+
+export const displayProductContent = {
+    imgSrc_1 : '/images/P1.png',
+    imgSrc_2 : '/images/P2.png',
+    imgSrc_3 : '/images/P3.png',
+    imgSrc_4 : '/images/P4.png',
+    title_1 : `RED LABEL`,
+    title_2 : `BLUE LABEL`,
+    title_3 : `The Glenlivet 12`,
+    title_4 : `The Glenlivet`,
+    desc_a_1: `Red Rebel Ice Pick is a melee weapon that provides access to additional extraction points on Reserve and Lighthouse maps, but also you can chop your enemies with that! Didn't find the ice pick yet? You ca buy it from our professional players!`,
+    desc_a_2: `Red Rebel Ice Pick is a melee weapon that provides access to additional extraction points on Reserve and Lighthouse maps, but also you can chop your enemies with that! Didn't find the ice pick yet? You ca buy it from our professional players!`,
+    desc_b_2: `Blue Rebel Ice Pick is a melee weapon that provides access to additional extraction points on Reserve and Lighthouse maps, but also you can chop your enemies with that! Didn't find the ice pick yet? You ca buy it from our professional players!`,
+    desc_b_1: `Blue Rebel Ice Pick is a melee weapon that provides access to additional extraction points on Reserve and Lighthouse maps, but also you can chop your enemies with that! Didn't find the ice pick yet? You ca buy it from our professional players!`,
+    desc_c_1: `He whisky comes in at an approachable 40% ABV and is matured in both European and American oak casks (not particularly telling).`,
+    desc_c_2: `The Glenlivet 12-Year is the epitome of an acceptable, entry-level Speyside single malt scotch. Like many of its peers, this makes it easier to enjoy from a casual, entry-level standpoint.`,
+    desc_d_1: `It is the oldest legal distillery in the Highlands of Scotland.`,
+    desc_d_2: `It was founded in 1824 and has operated almost continuously since. The distillery remained open throughout the Great Depression and its only closure came during World War II.`
+}

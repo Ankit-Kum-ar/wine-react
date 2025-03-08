@@ -1,8 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Glass+Antiqua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sail&display=swap');
 @import "tailwindcss";
 
 @plugin "tailwindcss-animate";
 
+
 @custom-variant dark (&:is(.dark *));
+
+/* Add a class for the Sail font */
+.font-sail {
+  font-family: 'Sail', cursive;
+}
+/* Add a class for the Glass Antiqua font */
+.font-glass-antiqua {
+  font-family: 'Glass Antiqua', sans-serif;
+}
 
 :root {
   --background: oklch(1 0 0);
