@@ -5,6 +5,7 @@ import Hero from '@/components/Hero'
 import Zigzag from './components/Zigzag'
 import Bg from './components/Bg'
 import Threeway from './components/Threeway'
+import Footer from '@/components/Footer'
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <Zigzag />
       <Threeway />
       <Bg />
+      <Footer />
       
     </div>
   )
