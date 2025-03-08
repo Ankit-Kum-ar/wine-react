@@ -33,16 +33,6 @@ const DesktopNavbar = () => {
         >
             <span className="hidden lg:inline">Product</span>
         </NavLink>
-        <NavLink
-            to="/blog"
-            className={({ isActive }: { isActive: boolean }) =>
-                isActive
-                    ? "text-white flex items-center gap-2"
-                    : "text-slate-400 flex items-center gap-2 hover:text-white"
-            }
-        >
-            <span className="hidden lg:inline">Blog</span>
-        </NavLink>
     </div>
   )
 }
