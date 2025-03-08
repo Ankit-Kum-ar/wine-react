@@ -1,8 +1,8 @@
 
 const Zigzag = () => {
   return (
-    <div  className="bg-[#FCF5EA] px-10 md:px-20 w-full overflow-hidden flex flex-col justify-center items-center">
-    <div className="flex flex-row-reverse justify-between items-center py-0 md:py-20 w-full ">
+    <div  className="bg-[#FCF5EA] p-10 md:px-20 w-full overflow-hidden flex flex-col justify-center items-center">
+    <div className="flex flex-row-reverse justify-center items-center py-0 md:py-20 w-full ">
     <div >
         
         <p className="mt-4 text-sm md:text-2xl text-[#1B1C1E] text-center w-[40vw] md:w-[30vw] ">
