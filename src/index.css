@@ -151,6 +151,7 @@
   }
 }
 
+/* These are used to remove the scrollbar of the overflow-x-scroll */
 .hide-scrollbar {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */

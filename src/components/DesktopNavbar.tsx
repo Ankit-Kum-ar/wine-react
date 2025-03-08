@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom"
+import { Link } from "react-scroll"
 
 const DesktopNavbar = () => {
   return (
@@ -13,16 +14,15 @@ const DesktopNavbar = () => {
         >
             <span className="hidden lg:inline">Home</span>
         </NavLink>
-        <NavLink
-            to="/about"
-            className={({ isActive }: { isActive: boolean }) =>
-                isActive
-                    ? "text-white flex items-center gap-2"
-                    : "text-slate-400 flex items-center gap-2 hover:text-white"
-            }
+        <Link
+            to="about-section"
+            spy={true}
+            smooth={true}
+            duration={500}
+            className="text-slate-400 cursor-pointer flex items-center gap-2 hover:text-white"
         >
             <span className="hidden lg:inline">About</span>
-        </NavLink>
+        </Link>
         <NavLink
             to="/product"
             className={({ isActive }: { isActive: boolean }) =>
