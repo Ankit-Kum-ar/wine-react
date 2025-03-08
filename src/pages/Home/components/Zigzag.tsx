@@ -2,10 +2,10 @@
 const Zigzag = () => {
   return (
     <div  className="bg-[#FCF5EA] p-10 md:px-20 w-full overflow-hidden flex flex-col justify-center gap-10 items-center">
-    <div className="flex flex-row-reverse justify-center items-center py-0 md:py-20 w-full ">
+    <div className="flex flex-row-reverse justify-center items-center py-0 md:py-20 w-full gap-8 ">
     <div >
         
-        <p className="mt-4 text-sm md:text-2xl text-[#1B1C1E] text-center w-[40vw] md:w-[30vw] ">
+        <p className="mt-4 text-sm md:text-2xl text-[#1B1C1E] text-center w-[40vw] md:w-[30vw] font-manrope">
         Our commitment to sustainability and the art of whiskey making extends beyond the bottle
         </p>
         
@@ -30,7 +30,7 @@ const Zigzag = () => {
     <div className="flex flex-row justify-center gap-8 items-center">
     <div className=" flex items-center" >
         
-        <p className="mt-4 text-xs md:text-lg text-[#1B1C1E] text-center w-[40vw] md:w-[30vw] ">
+        <p className="mt-4 text-xs md:text-lg text-[#1B1C1E] text-center w-[40vw] md:w-[30vw] font-manrope ">
         As the amber liquid gracefully swirls in the glass, it tells tales of time-honored traditions, the care of countless craftsmen, and the serene landscapes of its birth        </p>
         
       </div>

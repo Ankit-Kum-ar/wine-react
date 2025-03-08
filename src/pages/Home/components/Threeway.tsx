@@ -8,7 +8,7 @@ const Threeway = () => {
         </div>
     <div className=" bg-[#FCF5EA] flex items-center pl-10 md:p-10 h-[30vh] md:h-[100vh] " >
         
-        <p className="mt-4 text-xs md:text-xl text-[#1B1C1E] text-left w-[40vw]  ">
+        <p className="mt-4 text-xs md:text-xl text-[#1B1C1E] text-left w-[40vw] font-manrope  ">
         Guided whiskey tasting events offering a sensory exploration of our finest selections    </p>    
       </div>
 

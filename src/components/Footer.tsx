@@ -17,7 +17,7 @@ const Footer = () => {
           </Link>
         </div>
         <div className="info object-contain text-left text-white font-poppins leading-relaxed text-sm md:text-sm font-thin py-4">
-          <p className="text-justify">
+          <p className="text-justify font-manrope">
           We are a passionate team of professionals dedicated to providing top-quality products to help you find the most genuine liquor where we are specializing in services including importing, distribution and marketing.
           </p>
         </div>
@@ -38,7 +38,7 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <div className="quick text-[#FCF5EA] py-10 hidden md:block">
+      <div className="quick text-[#FCF5EA] py-10 hidden md:block font-manrope">
         <h4 className="py-2 text-xs md:text-sm">Quick Links</h4>
         <ul className="list-disc list-inside text-sm md:text-sm underline">
           <li className="hover:text-[#4D6A52]">
@@ -56,7 +56,7 @@ const Footer = () => {
           
         </ul>
       </div>
-      <div className="contact text-white flex flex-col justify-center pb-8 md:w-[40vw]">
+      <div className="contact text-white flex flex-col justify-center pb-8 md:w-[40vw] font-manrope">
         <div className="space-y-4">
           <div className="flex gap-2">
             <img src="/images/location.png" alt="Mail" className="h-5  text-white mt-2" />
@@ -86,9 +86,9 @@ const Footer = () => {
     </div>
     <div className="w-full h-0.5 bg-white opacity-20"></div>
     <div className="footerbottom">
-      <p className="text-[#CCCCCC] text-xs md:text-base p-2 md:p-4">
-        © Copyright 2024 MarketingEXL | All Rights Reserved by{" "}
-        <span className="text-white font-bold font-poppins">MarketingEXL</span>
+      <p className="text-[#CCCCCC] text-xs md:text-base p-2 md:p-4 font-manrope">
+        © Copyright 2025 SkyWines&Siprits | All Rights Reserved by{" "}
+        <span className="text-white font-medium font-manrope">Sky Wines & Spirits</span>
       </p>
     </div>
   </section>
