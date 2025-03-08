@@ -5,6 +5,7 @@ import { carouselImagesArray_01, carouselImagesArray_02, carouselImagesContentAr
 import DisplayProduct from "./components/DisplayProduct"
 import ShowProduct from "./components/ShowProduct"
 import Footer from "@/components/Footer"
+import { useEffect } from "react"
 
 const Product = () => {
   const { 
@@ -32,6 +33,9 @@ const Product = () => {
     desc_f_1
 
   } = displayProductContent;
+  useEffect(() => {
+    document.title = "Product - WINI";
+  }, [])
   return (
     <div>
       <Hero />

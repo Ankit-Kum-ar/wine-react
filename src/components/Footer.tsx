@@ -3,9 +3,9 @@ import { Link } from "react-router-dom"
 const Footer = () => {
   return (
     <section
-    
-    className="w-full bg-[#254130] flex flex-col items-center pt-4"
-  >
+      id="footer-section"
+      className="w-full bg-[#254130] flex flex-col items-center pt-4"
+    >
     <div className="footertop w-[90vw] flex flex-col md:flex-row gap-4 justify-between items-center">
       <div className="about w-full md:w-1/3 px-4">
         <div className="img-container py-4">
@@ -45,15 +45,8 @@ const Footer = () => {
             <Link to="/"> Home </Link>
           </li>
           <li className="hover:text-[#4D6A52]">
-            <Link to="/about">About us</Link>
-          </li>
-          <li className="hover:text-[#4D6A52]">
             <Link to="/product">Products</Link>
-          </li>
-          <li className="hover:text-[#4D6A52]">
-            <Link to="/contact">Contact Us</Link>
-          </li>
-          
+          </li>          
         </ul>
       </div>
       <div className="contact text-white flex flex-col justify-center pb-8 md:w-[40vw] font-manrope">
