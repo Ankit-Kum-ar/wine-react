@@ -11,7 +11,7 @@ interface DisplayProductProps {
 
 const DisplayProduct: React.FC<DisplayProductProps> = ({ imgSrc_1, imgSrc_2, title_1, title_2, desc_a_1, desc_a_2, desc_b_1, desc_b_2 }) => {
   return (
-    <div className="flex flex-col justify-center items-center bg-[#FCF5EA] md:p-14 py-9 px-5 w-screen md:gap-0 gap-12">
+    <div className="flex flex-col justify-center items-center bg-[#FCF5EA] md:p-14 py-9 px-5 w-full md:gap-0 gap-12">
       <div className="flex md:flex-row flex-col justify-center items-center gap-9">
         <img src={imgSrc_1} alt="" className="md:w-1/2" />
         <div className="flex flex-col justify-start items-start gap-9 md:w-1/2">
