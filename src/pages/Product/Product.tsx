@@ -3,9 +3,35 @@ import Display from "@/components/Display"
 import Hero from "@/components/Hero"
 import { carouselImagesArray_01, carouselImagesArray_02, carouselImagesContentArray_01, carouselImagesContentArray_02, displayProductContent } from "@/utils/constant"
 import DisplayProduct from "./components/DisplayProduct"
+import ShowProduct from "./components/ShowProduct"
+import Footer from "@/components/Footer"
 
 const Product = () => {
-  const { imgSrc_1, imgSrc_2, imgSrc_3, imgSrc_4, title_1, title_2, title_3, title_4, desc_a_1, desc_a_2, desc_b_1, desc_b_2, desc_c_1, desc_c_2, desc_d_1, desc_d_2 } = displayProductContent;
+  const { 
+    imgSrc_1, 
+    imgSrc_2, 
+    imgSrc_3, 
+    imgSrc_4, 
+    imgSrc_5,
+    imgSrc_6,
+    title_1, 
+    title_2, 
+    title_3, 
+    title_4, 
+    title_5,
+    title_6,
+    desc_a_1, 
+    desc_a_2, 
+    desc_b_1, 
+    desc_b_2, 
+    desc_c_1, 
+    desc_c_2, 
+    desc_d_1, 
+    desc_d_2,
+    desc_e_1,
+    desc_f_1
+
+  } = displayProductContent;
   return (
     <div>
       <Hero />
@@ -21,6 +47,10 @@ const Product = () => {
       <div className="flex justify-center items-center border-y-4 border-[#6B2F1F]">
         <CarouselDemo carouselImagesArray = {carouselImagesArray_02} carouselImagesContentArray={carouselImagesContentArray_02} />
       </div>
+      <DisplayProduct imgSrc_1={imgSrc_5} imgSrc_2={imgSrc_6} title_1={title_5} title_2={title_6} desc_a_1={desc_e_1} desc_a_2="" desc_b_1={desc_f_1} desc_b_2="" />
+      <ShowProduct />
+      <img src="/images/banner.png" className="" alt="" />
+      <Footer />
     </div>
   )
 }
