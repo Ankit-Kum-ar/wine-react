@@ -1,3 +1,6 @@
+import { CarouselDemo } from "./CarouselDemo";
+import { carouselImagesArray_03, carouselImagesContentArray_03 } from "../utils/constant";
+
 interface DisplayProps {
   title: string;
 }
@@ -8,13 +11,8 @@ const Display = ({ title }: DisplayProps) => {
       <h2 className="text-xl md:text-2xl lg:text-4xl font-sail text-center text-[#1B1C1E] my-4 ">
         {title}
       </h2>
-      <div className="flex overflow-x-scroll pb-4 ">
-        <div className="flex items-center gap-4 p-4 md:p-6  w-full">
-          <img src="/images/dom.png" alt="DOM" className="h-40 md:h-[60vh] transform translate-y-4 hover:scale-105 transition-transform duration-500" />
-          <img src="/images/royal salute 21.png" alt="Royal Salute" className="h-40 md:h-[60vh] transform translate-y-4 hover:scale-105 transition-transform duration-500" />
-          <img src="/images/jacob's creek.png" alt="Jacob Creek" className="h-40 md:h-[60vh] transform translate-y-4 hover:scale-105 transition-transform duration-500" />
-          <img src="/images/moet.png" alt="MOET" className="h-40 md:h-[60vh] transform translate-y-4 hover:scale-105 transition-transform duration-500" />
-        </div>
+      <div className="flex justify-center items-center pb-4 ">
+        <CarouselDemo carouselImagesArray = {carouselImagesArray_03} carouselImagesContentArray={carouselImagesContentArray_03} />
       </div>
     </div>
   )

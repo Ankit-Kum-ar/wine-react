@@ -12,7 +12,7 @@ const Home = () => {
     <div>
       <Hero title="Exclusive Collection of Rare Liquor Awaits" />
       <About />
-      <Display title="Unveiling the Essence of Timeless Elegance in Whiskey" />
+      <Display title="Unveiling the Essence of Timeless Elegance in Every Drop" />
       <Banner />
       <Zigzag />
       <Threeway />
