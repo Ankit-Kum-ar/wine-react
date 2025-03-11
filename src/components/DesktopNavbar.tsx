@@ -14,15 +14,6 @@ const DesktopNavbar = () => {
         >
             <span className="hidden lg:inline">Home</span>
         </NavLink>
-        <Link
-            to="about-section"
-            spy={true}
-            smooth={true}
-            duration={500}
-            className="text-slate-400 cursor-pointer flex items-center gap-2 hover:text-white"
-        >
-            <span className="hidden lg:inline">About</span>
-        </Link>
         <NavLink
             to="/product"
             className={({ isActive }: { isActive: boolean }) =>
