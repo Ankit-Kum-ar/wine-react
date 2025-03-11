@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&display=swap');
 @import "tailwindcss";
 
 @plugin "tailwindcss-animate";
@@ -18,6 +18,10 @@
 /* Add a class for the Glass Antiqua font */
 .font-glass-antiqua {
   font-family: 'Glass Antiqua', sans-serif;
+}
+/* Add a class for the Bacasime Antique font */
+.font-bacasime-antique {
+  font-family: 'Bacasime Antique', serif;
 }
 /* Add a class for the Manrope font */
 .font-manrope {

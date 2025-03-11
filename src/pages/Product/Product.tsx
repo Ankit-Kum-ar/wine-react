@@ -38,7 +38,7 @@ const Product = () => {
   }, [])
   return (
     <div>
-      <Hero />
+      <Hero title="A Legacy Where Prestige Meets Perfection" />
       <Display title="Explore Our Varietals"/>
       <DisplayProduct imgSrc_1={imgSrc_2} imgSrc_2={imgSrc_1} title_1={title_1} title_2={title_2} desc_a_1={desc_a_1} desc_a_2={desc_a_2} desc_b_1={desc_b_1} desc_b_2={desc_b_2} />
       <div className="flex justify-center items-center border-y-4 border-[#6B2F1F]">

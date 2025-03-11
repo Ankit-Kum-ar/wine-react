@@ -10,7 +10,7 @@ const Home = () => {
   return (
     
     <div>
-      <Hero />
+      <Hero title="Exclusive Collection of Rare Liquor Awaits" />
       <About />
       <Display title="Unveiling the Essence of Timeless Elegance in Whiskey" />
       <Banner />
