@@ -4,7 +4,7 @@ import MobileNavbar from "./MobileNavbar"
 
 const Navbar = () => {
   return (
-    <nav className="absolute top-0 w-full px-10 bg-transparent z-50">
+    <nav className="absolute top-0 w-full md:px-10 px-3 py-1 bg-transparent z-50">
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center">
