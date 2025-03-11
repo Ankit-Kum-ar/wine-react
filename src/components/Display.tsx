@@ -5,7 +5,7 @@ interface DisplayProps {
 const Display = ({ title }: DisplayProps) => {
   return (
     <div className="bg-[#FCF5EA] py-6 px-4 md:px-8 lg:px-16 w-full">
-      <h2 className="text-xl md:text-2xl lg:text-4xl font-sail text-center text-[#1B1C1E] mb-4 md:mb-10 font-anybody">
+      <h2 className="text-xl md:text-2xl lg:text-4xl font-sail text-center text-[#1B1C1E] mb-4 ">
         {title}
       </h2>
       <div className="flex overflow-x-scroll  py-4 ">
