@@ -3,7 +3,6 @@ import Display from '../../components/Display'
 import Banner from './components/Banner'
 import Hero from '@/components/Hero'
 import Zigzag from './components/Zigzag'
-import Bg from './components/Bg'
 import Threeway from './components/Threeway'
 import Footer from '@/components/Footer'
 
@@ -17,7 +16,7 @@ const Home = () => {
       <Banner />
       <Zigzag />
       <Threeway />
-      <Bg />
+      <img src="/images/banner.png" className="w-full" alt="" />
       <Footer />
       
     </div>
