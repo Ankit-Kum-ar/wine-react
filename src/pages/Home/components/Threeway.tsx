@@ -2,7 +2,7 @@
 const Threeway = () => {
   return (
     <div className="flex flex-row  items-center w-full my-10 md:my-20">
-        <div className=" flex items-center w-[20vw] bg-[url(images/Bom.png)] bg-cover bg-no-repeat bg-center h-[30vh] md:h-[100vh] ">
+        <div className=" flex items-center w-[20vw] bg-[url(/images/Bom.png)] bg-cover bg-no-repeat bg-center h-[30vh] md:h-[100vh] ">
             
         
         </div>
@@ -12,7 +12,7 @@ const Threeway = () => {
         Guided whiskey tasting events offering a sensory exploration of our finest selections    </p>    
       </div>
 
-      <div className=" flex items-center w-[50vw] bg-[url(images/C3.png)] bg-cover bg-no-repeat bg-left-top h-[30vh] md:h-[100vh] ">
+      <div className=" flex items-center w-[50vw] bg-[url(/images/C3.png)] bg-cover bg-no-repeat bg-left-top h-[30vh] md:h-[100vh] ">
             
         
             </div>
