@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar"
 import Home from "./pages/Home/Home"
 import Product from "./pages/Product/Product"
 import { useEffect } from "react";
+import ScrolltoTop from "./helpers/ScrolltoTop";
 
 function App() {
   useEffect(() => {
@@ -10,6 +11,7 @@ function App() {
   }, []);
   return (
     <>
+    <ScrolltoTop />
     <Navbar />
     <Routes>
       <Route path="/" element={<Home />} />
