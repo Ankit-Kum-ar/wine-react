@@ -56,23 +56,23 @@ export const carouselImagesContentArray_02 = [
     },
     {
         title: `CRISTAL`,
-        description: `Louis Roederer Cristal, the first Prestige Cuvée, was created in 1876 for Alexander II of Russia. This is Champagne at its finest, as inspired today as it has always been, the embodiment of elegance and purity. Cristal is made according to the strictest criteria, based on a drastic process of selection applying to the vintage, the cru, the village, the grapes, and finally the wines. Only Pinot Noir and Chardonnay grapes from the House's 10 most celebrated crus are used in the production of this legendary cuvée. The wine is aged for 6 years in Louis Roederer's cellars and left for a further 8 months after dégorgement. Cristal is a remarkably balanced and refined champagne whose length is inimitable.`
+        description: `Louis Roederer Cristal, the first Prestige Cuvée, was created in 1876 for Alexander II of Russia. This is Champagne at its finest, as inspired today as it has always been, the embodiment of elegance and purity. Cristal is made according to the strictest criteria, based on a drastic process of selection applying to the vintage, the cru, the village, the grapes, and finally the wines. Only Pinot Noir and Chardonnay grapes from the House's 10 most celebrated crus are used in the production of this legendary cuvée.`
     },
     {
         title: `Veuve Clicquot`,
-        description: `Veuve Clicquot Ponsardin is a French Champagne house based in Reims, specializing in premium products. Founded in 1772 by Philippe Clicquot-Muiron, Veuve Clicquot played an important role in establishing champagne as a favored drink of haute bourgeoisie and nobility throughout Europe. The 1811 comet vintage of Veuve Clicquot is theorized to have been the first truly "modern" Champagne due to the advancements in the méthode champenoise which Veuve Clicquot pioneered through the technique of remuage. Veuve Clicquot is known internationally for its production of luxury champagnes, including the famous Yellow Label.`
+        description: `Veuve Clicquot Ponsardin is a French Champagne house based in Reims, specializing in premium products. Founded in 1772 by Philippe Clicquot-Muiron, Veuve Clicquot played an important role in establishing champagne as a favored drink of haute bourgeoisie and nobility throughout Europe. The 1811 comet vintage of Veuve Clicquot is theorized to have been the first truly "modern" Champagne due to the advancements in the méthode champenoise which Veuve Clicquot pioneered through the technique of remuage.`
     },
     {
         title : `Krug`,
-        description : `Krug Grande Cuvée is the archetype of Krug's philosophy of craftsmanship and savoir-faire: a blend of more than 120 wines from ten or more different years. Its exceptional finesse is the result of a stay of at least another six years in the cellars. Over twenty years are needed to craft each bottle of Krug Grande Cuvee. Krug Grande Cuvée is the ultimate expression of the Krug style: full-bodied, rich, and intense but always displaying elegance and finesse. Krug Grande Cuvée is the archetype of Krug's philosophy of craftsmanship and savoir-faire: a blend of more than 120 wines from ten or more different years.`
+        description : `Krug Grande Cuvée is the archetype of Krug's philosophy of craftsmanship and savoir-faire: a blend of more than 120 wines from ten or more different years. Its exceptional finesse is the result of a stay of at least another six years in the cellars. Over twenty years are needed to craft each bottle of Krug Grande Cuvee. Krug Grande Cuvée is the ultimate expression of the Krug style: full-bodied, rich, and intense but always displaying elegance and finesse.`
     },
     {
         title: `Moet & Chandon`,
-        description: `Moët & Chandon has been the definitive reference for champagne since 1743. Moët Impérial is the House’s iconic champagne. Created in 1869, it embodies Moët & Chandon’s unique style, a style distinguished by its bright fruitiness, its seductive palate, and its elegant maturity. Moët Impérial is created in the heart of Champagne from more than 100 wines (of which 20-30% are reserve wines specially selected to enhance its maturity, complexity, and constancy). The assemblage reflects the diversity and complementarity of the three grapes varietals: the body of Pinot Noir (30-40%), the suppleness of Pinot Meunier (30-40%), and the finesse of Chardonnay (20-30%).`
+        description: `Moët & Chandon has been the definitive reference for champagne since 1743. Moët Impérial is the House’s iconic champagne. Created in 1869, it embodies Moët & Chandon’s unique style, a style distinguished by its bright fruitiness, its seductive palate, and its elegant maturity. Moët Impérial is created in the heart of Champagne from more than 100 wines (of which 20-30% are reserve wines specially selected to enhance its maturity, complexity, and constancy).`
     },
     {
         title: `Laurent Perrier`,
-        description: `Laurent-Perrier is a Champagne house founded in 1812. It is the fifth-largest Champagne house in the world and the largest family-owned brand. The house is known for producing a diverse range of Champagne styles, from the classic non-vintage brut to the ultra-premium prestige cuvée Grand Siècle. The house is also known for its pioneering use of stainless steel fermentation and for its focus on Chardonnay, particularly in the ultra-premium range. Laurent-Perrier is based in the northeastern French town of Tours-sur-Marne, in the heart of the Champagne region.`
+        description: `Laurent-Perrier is a Champagne house founded in 1812. It is the fifth-largest Champagne house in the world and the largest family-owned brand. The house is known for producing a diverse range of Champagne styles, from the classic non-vintage brut to the ultra-premium prestige cuvée Grand Siècle. The house is also known for its pioneering use of stainless steel fermentation and for its focus on Chardonnay, particularly in the ultra-premium range.`
     },
     {
         title: `Bollinger`,
@@ -89,8 +89,8 @@ export const displayProductContent = {
     imgSrc_6 : '/images/P6.png',
     title_1 : `RED LABEL`,
     title_2 : `BLUE LABEL`,
-    title_3 : `The Glenlivet 12`,
-    title_4 : `The Glenlivet`,
+    title_3 : `The Glenlivet`,
+    title_4 : `The Glenlivet 12`,
     title_5 : `The Singleton`,
     title_6 : `Jameson`,
     desc_a_1: `Red Rebel Ice Pick is a melee weapon that provides access to additional extraction points on Reserve and Lighthouse maps, but also you can chop your enemies with that! Didn't find the ice pick yet? You ca buy it from our professional players!`,

@@ -45,7 +45,7 @@ const Product = () => {
         <CarouselDemo carouselImagesArray = {carouselImagesArray_01} carouselImagesContentArray={carouselImagesContentArray_01} />
       </div>
       <div className="flex-col bg-[#FCF5EA]">
-        <h1 className="md:text-7xl text-5xl font-medium text-center py-8 font-sail"> Our Special  Whiskey</h1>
+        <h1 className="md:text-7xl text-4xl font-medium text-center md:py-8 pt-5 font-sail"> Our Special  Whiskey</h1>
         <DisplayProduct imgSrc_1={imgSrc_4} imgSrc_2={imgSrc_3} title_1={title_3} title_2={title_4} desc_a_1={desc_c_1} desc_a_2={desc_c_2} desc_b_1={desc_d_1} desc_b_2={desc_d_2} />
       </div>
       <div className="flex justify-center items-center border-y-4 border-[#6B2F1F]">
@@ -53,7 +53,7 @@ const Product = () => {
       </div>
       <DisplayProduct imgSrc_1={imgSrc_5} imgSrc_2={imgSrc_6} title_1={title_5} title_2={title_6} desc_a_1={desc_e_1} desc_a_2="" desc_b_1={desc_f_1} desc_b_2="" />
       <ShowProduct />
-      <img src="/images/banner.png" className="" alt="" />
+      <img src="/images/banner.png" className="w-full" alt="" />
       <Footer />
     </div>
   )

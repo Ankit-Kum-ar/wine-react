@@ -31,9 +31,9 @@ export function CarouselDemo({ carouselImagesArray, carouselImagesContentArray }
             <div className="p-1">
               <Card>
                 <CardContent className="flex flex-col ga aspect-square items-start justify-start">
-                  <img src={imageSrc} alt={`Image ${index + 1}`} className="h-[60vh]" />
+                  <img src={imageSrc} alt={`Image ${index + 1}`} className="md:h-[55vh] h-[40vh]" />
                   <p className="md:text-3xl text-2xl md:my-3 my-1" style={{ fontFamily: 'Glass Antiqua, sans-serif' }}>{carouselImagesContentArray[index].title}</p>
-                  <p style={{ fontFamily: 'Glass Antiqua, sans-serif' }} className="md:text-[12px] text-[9px]">{carouselImagesContentArray[index].description}</p>
+                  <p style={{ fontFamily: 'Glass Antiqua, sans-serif' }} className="md:text-[12px] text-[10px]">{carouselImagesContentArray[index].description}</p>
                 </CardContent>
               </Card>
             </div>
