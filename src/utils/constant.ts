@@ -1,5 +1,3 @@
-import { title } from "process"
-
 export const carouselImagesArray_01 = [
     "/images/C1.png",
     "/images/C2.png",
