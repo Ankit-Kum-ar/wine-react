@@ -22,31 +22,27 @@ const Footer = () => {
       },
     });
 
-    tl.from(aboutRef.current, {
-      opacity: 0,
-      y: 50,
-      duration: 0.5,
-      ease: "power3.out",
-    })
-      .from(quickLinksRef.current, {
-        opacity: 0,
-        x: -50,
-        duration: 0.5,
-        delay: 0.1,
-        ease: "power3.out",
-      })
-      .from(contactRef.current, {
-        opacity: 0,
-        x: 50,
-        duration: 0.5,
-        delay: 0.1,
-        ease: "power3.out",
-      })
-      .from(
+    tl.fromTo(
+      aboutRef.current,
+      { opacity: 0, y: 50 },
+      { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }
+    )
+      .fromTo(
+        quickLinksRef.current,
+        { opacity: 0, x: -50 },
+        { opacity: 1, x: 0, duration: 0.5, delay: 0.1, ease: "power3.out" }
+      )
+      .fromTo(
+        contactRef.current,
+        { opacity: 0, x: 50 },
+        { opacity: 1, x: 0, duration: 0.5, delay: 0.1, ease: "power3.out" }
+      )
+      .fromTo(
         iconsRef.current?.children ? Array.from(iconsRef.current.children) : [],
+        { opacity: 0, scale: 0.8 },
         {
-          opacity: 0,
-          scale: 0.8,
+          opacity: 1,
+          scale: 1,
           duration: 0.5,
           stagger: 0.2, // Stagger for smoother appearance
           ease: "back.out(1.7)",
@@ -128,6 +124,9 @@ const Footer = () => {
             </li>
             <li className="hover:text-[#4D6A52]">
               <Link to="/product">Products</Link>
+            </li>
+            <li className="hover:text-[#4D6A52]">
+              <Link to="/contact">Contact Us</Link>
             </li>
           </ul>
         </div>

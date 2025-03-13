@@ -22,29 +22,40 @@ const Threeway = () => {
     });
 
     // Left Image Animation - Fade in with Slide from Left
-    tl.from(leftImageRef.current, {
+    tl.fromTo(leftImageRef.current,{
       opacity: 0,
       x: -100,
+    }, {
+      opacity: 1,
+      x: 0,
       duration: 1.2,
       ease: "power3.out",
     });
 
     // Text Animation - Slide in from Bottom with Staggered Effect
-    tl.from(textRef.current, {
+    tl.fromTo(textRef.current,{
       opacity: 0,
       y: 50,
+    }, {
+      opacity: 1,
+      y: 0,
       duration: 1,
-      delay: 0.3,
+      // delay: 0.3,
       ease: "back.out(1.7)",
     });
+    
 
     // Right Image Animation - Fade in with Zoom-in Effect
-    tl.from(rightImageRef.current, {
+    tl.fromTo(rightImageRef.current,{
       opacity: 0,
       scale: 0.8,
+    }, {
+      opacity: 1,
+      scale: 1,
       duration: 1.2,
       ease: "power3.out",
     });
+   
   }, []);
 
   return (

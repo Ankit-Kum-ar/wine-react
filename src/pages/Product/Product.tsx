@@ -4,7 +4,6 @@ import Hero from "@/components/Hero"
 import { carouselImagesArray_01, carouselImagesArray_02, carouselImagesContentArray_01, carouselImagesContentArray_02, displayProductContent } from "@/utils/constant"
 import DisplayProduct from "./components/DisplayProduct"
 import ShowProduct from "./components/ShowProduct"
-import Footer from "@/components/Footer"
 import { useEffect } from "react"
 
 const Product = () => {
@@ -54,7 +53,7 @@ const Product = () => {
       <DisplayProduct imgSrc_1={imgSrc_5} imgSrc_2={imgSrc_6} title_1={title_5} title_2={title_6} desc_a_1={desc_e_1} desc_a_2="" desc_b_1={desc_f_1} desc_b_2="" />
       <ShowProduct />
       <img src="/images/banner.png" className="w-full" alt="" />
-      <Footer />
+      
     </div>
   )
 }

@@ -13,40 +13,41 @@ const Zigzag = () => {
   useEffect(() => {
     const tl = gsap.timeline({
       scrollTrigger: {
-        trigger: sectionRef.current,
-        start: "top 90%",
-        end: "bottom 20%",
+        trigger: sectionRef.current, // Animation starts when the section is in view
+        start: "top 90%", // Start animation when the top of the section hits 90% of the viewport
+        end: "bottom 10%", // End animation when the bottom of the section hits 10% of the viewport
         toggleActions: "restart none none none", // Restart on scroll
       },
     });
 
     // Text Animation - Staggered Slide-in
-    tl.from(textRefs.current, {
-      opacity: 0,
-      x: -100,
-      duration: 0.5,
-      stagger: 0.1, // Delayed stagger effect for smooth appearance
-      ease: "power4.out",
+    tl.fromTo(textRefs.current,{opacity:0, x: -100}, {
+      opacity: 1, // Start with opacity 0
+      x: 0, // Slide in from the left
+      duration: 1.2, // Animation duration
+      stagger: 0.5, // Delayed stagger effect for smooth appearance
+      ease: "power3.out",
     });
 
     // Image Animation - Staggered Zoom-in with Parallax Effect
-    tl.from(imageRefs.current, {
-      opacity: 0,
-      y: 100,
+    tl.fromTo(imageRefs.current,{opacity: 0, y: 100, scale: 0.8}, {
+      opacity: 1,
+      y: 0,
       scale: 0.8,
       duration: 0.8,
-      stagger: 0.2,
-      ease: "back.out(1.7)", // Bounce-like effect for depth
+      stagger: 0.5,
+      ease: "power3.out", // Bounce-like effect for depth
     });
   }, []);
 
   return (
     <div
-      ref={sectionRef}
+    ref={sectionRef} 
       className="bg-[#FCF5EA] p-10 md:px-20 w-full overflow-hidden flex flex-col justify-center gap-10 items-center"
     >
       {/* First Section */}
-      <div className="flex flex-row-reverse justify-center items-center py-0 md:py-20 w-full gap-8">
+      <div 
+      className="flex flex-row-reverse justify-center items-center py-0 md:py-20 w-full gap-8">
         <div>
           <p
             ref={(el) => {textRefs.current[0] = el}}
@@ -67,7 +68,8 @@ const Zigzag = () => {
       </div>
 
       {/* Second Section */}
-      <div className="flex flex-row justify-center gap-8 items-center">
+      <div
+      className="flex flex-row justify-center gap-8 items-center">
         <div className="flex items-center">
           <p
             ref={(el) => {textRefs.current[1] = el}}

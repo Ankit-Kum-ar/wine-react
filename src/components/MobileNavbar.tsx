@@ -1,4 +1,4 @@
-import { HomeIcon, MenuIcon, ShoppingCart } from "lucide-react"
+import { Contact, HomeIcon, MenuIcon, ShoppingCart } from "lucide-react"
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "./ui/sheet";
 import { useState } from "react";
 import { Button } from "./ui/button";
@@ -38,6 +38,12 @@ const MobileNavbar = () => {
                             <Link to="/product" onClick={handleLinkClick}>
                                 <ShoppingCart className="w-4 h-4" />
                                 Product
+                            </Link>
+                        </Button>
+                        <Button variant="ghost" className="flex items-center gap-3 justify-start" asChild>
+                            <Link to="/contact" onClick={handleLinkClick}>
+                                <Contact className="w-4 h-4" />
+                                Contact
                             </Link>
                         </Button>
                     </nav>

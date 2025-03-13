@@ -61,16 +61,20 @@ const DesktopNavbar = () => {
         <span className="hidden lg:inline">Product</span>
       </NavLink>
 
-      {/* Contact Link (Scroll Link) */}
-      <Link
-        to="footer-section"
-        spy={true}
-        smooth={true}
-        duration={500}
-        className="nav-item text-slate-400 cursor-pointer flex items-center gap-2 hover:text-white transition-transform duration-300 hover:scale-110"
+      {/* Contact Link  */}
+      <NavLink
+        to="/contact"
+        className={({ isActive }) =>
+          `nav-item flex items-center gap-2 transition-transform duration-300 ${
+            isActive
+              ? "text-white border-b-2 border-[#FFF] scale-110"
+              : "text-slate-400 hover:text-white"
+          }`
+        }
       >
-        <span className="hidden lg:inline">Contact</span>
-      </Link>
+        <span className="hidden lg:inline">Contact Us</span>
+      </NavLink>
+      
     </div>
   );
 };

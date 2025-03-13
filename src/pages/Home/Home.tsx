@@ -4,12 +4,11 @@ import Banner from './components/Banner'
 import Hero from '@/components/Hero'
 import Zigzag from './components/Zigzag'
 import Threeway from './components/Threeway'
-import Footer from '@/components/Footer'
 
 const Home = () => {
   return (
     
-    <div>
+    <>
       <Hero title="Exclusive Collection of Rare Liquor Awaits" />
       <About />
       <Display title="Unveiling the Essence of Timeless Elegance in Every Drop" />
@@ -17,9 +16,9 @@ const Home = () => {
       <Zigzag />
       <Threeway />
       <img src="/images/banner.png" className="w-full" alt="" />
-      <Footer />
       
-    </div>
+      
+    </>
   )
 }
 

@@ -6,6 +6,8 @@ import { useEffect, useState } from "react";
 import ScrolltoTop from "./helpers/ScrolltoTop";
 import Modal from "./components/Modal";
 import { ToastContainer } from "react-toastify";
+import Contact from "./pages/Contact/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   const [isModalOpen, setIsModalOpen] = useState(true);
@@ -30,7 +32,9 @@ function App() {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/product" element={ <Product /> } />
+      <Route path="/contact" element={<Contact />} />
     </Routes>
+    <Footer />
     </>
   )
 }

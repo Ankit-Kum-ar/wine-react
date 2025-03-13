@@ -1,6 +1,7 @@
 import { useEffect, useRef } from "react";
 import { Button } from "./ui/button";
 import gsap from "gsap";
+import { Link } from "react-router-dom";
 
 interface HeroProps {
   title: string;
@@ -61,12 +62,13 @@ const Hero = ({ title }: HeroProps) => {
             {title}
           </h2>
         </div>
-        <Button
+        
+        {/* <Button
           ref={buttonRef}
           className="greeting text-white text-lg bg-[#164328] border-2 border-solid border-[#4D6A52] text-center px-6 py-2 z-20 font-manrope rounded-none hover:bg-[#4D6A52] cursor-pointer m-6"
         >
-          Shop now
-        </Button>
+          Explore now
+        </Button> */}
       </div>
     </div>
   );
