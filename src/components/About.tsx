@@ -29,21 +29,23 @@ const About = () => {
     }
 
     // Staggered Text Animation
-    gsap.fromTo(
-      textRef.current?.children,
-      { opacity: 0, y: 30 },
-      {
-        opacity: 1,
-        y: 0,
-        stagger: 0.2,
-        duration: 1.2,
-        ease: "power3.out",
-        scrollTrigger: {
-          trigger: textRef.current,
-          start: "top 90%",
-        },
-      }
-    );
+    if (textRef.current?.children) {
+      gsap.fromTo(
+        textRef.current.children,
+        { opacity: 0, y: 30 },
+        {
+          opacity: 1,
+          y: 0,
+          stagger: 0.2,
+          duration: 1.2,
+          ease: "power3.out",
+          scrollTrigger: {
+            trigger: textRef.current,
+            start: "top 90%",
+          },
+        }
+      );
+    }
 
     // Image Animation
     gsap.fromTo(

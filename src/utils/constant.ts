@@ -59,7 +59,7 @@ export const carouselImagesContentArray_01 = [
     },
     {
         title: `Bombay Sapphire`,
-        description: `Bombay Sapphire is a premium gin that's known for its balanced flavor, versatility, and bright taste. It's made with 10 botanicals, including juniper, coriander, citrus, and peppers`
+        description: `Bombay Sapphire is a premium gin that's known for its balanced flavor, versatility, and bright taste. It's made with 10 botanicals, including juniper, coriander, citrus, and peppers`
     },
     {
         title : `Tanqueray`,
@@ -70,7 +70,7 @@ export const carouselImagesContentArray_01 = [
         description: `The good thing about Monkey 47 gin is its exceptional complexity in flavor, achieved by using 47 hand-picked botanicals from the Black Forest, Germany, resulting in a rich, balanced taste with notes of juniper, citrus, floral, and spice, making it a great choice for those looking for a unique and sophisticated gin experience; it's often considered a premium spirit with high quality ingredients and craftsmanship.`
     },
     {
-        title: `Hendrick’s`,
+        title: `Hendrick's`,
         description: `The good thing about Hendrick's gin is its unique and balanced flavor profile, characterized by a smooth, floral taste with subtle notes of cucumber and rose, making it a great choice for people who might find traditional, juniper-heavy gins too intense, particularly when mixed in a simple gin and tonic with a cucumber slice as garnish; it's considered a refreshing and approachable option for a wider range of drinkers due to its delicate botanicals.`
     },
     
@@ -83,23 +83,23 @@ export const carouselImagesContentArray_02 = [
     },
     {
         title: `Jack Daniels`,
-        description: `Jack Daniel's is a Tennessee whiskey known for its smooth, well-balanced flavor and amber hue. It's made from corn, rye, and malted barley, and is distilled in copper stills`
+        description: `Jack Daniel's is a Tennessee whiskey known for its smooth, well-balanced flavor and amber hue. It's made from corn, rye, and malted barley, and is distilled in copper stills`
     },
     {
         title: `Camas`,
-        description: ` Camas Merlot is a smooth and approachable red wine with soft tannins and flavors of ripe berries and plum, offering a versatile and easy-drinking option for any occasion.`
+        description: `Camas Merlot is a smooth and approachable red wine with soft tannins and flavors of ripe berries and plum, offering a versatile and easy-drinking option for any occasion.`
     },
     {
         title : `J&B`,
-        description : `J&B Rare is perfect for those who enjoy a classic whisky taste with a modern twist. This smooth Scotch is great on the rocks or neat, and it's also versatile enough to be used in cocktails.`
+        description : `J&B Rare is perfect for those who enjoy a classic whisky taste with a modern twist. This smooth Scotch is great on the rocks or neat, and it's also versatile enough to be used in cocktails.`
     },
     {
         title: `DonJulio`,
-        description: `Don Julio tequila can be enjoyed neat, on the rocks, or in a variety of drinks. It pairs well with certain foods and is often used to make margaritas.`
+        description: `Don Julio tequila can be enjoyed neat, on the rocks, or in a variety of drinks. It pairs well with certain foods and is often used to make margaritas.`
     },
     {
         title: `Glenfiddich`,
-        description: `Glenfiddich 12 is part of the distillery's flagship collection, a great choice for seasoned sippers or those who are new to whisky, with lots of light and fruity flavours thanks to a high cut point. Aged for 12 years in American and European oak casks, it's also the world's most awarded single malt!`
+        description: `Glenfiddich 12 is part of the distillery's flagship collection, a great choice for seasoned sippers or those who are new to whisky, with lots of light and fruity flavours thanks to a high cut point. Aged for 12 years in American and European oak casks, it's also the world's most awarded single malt!`
     },
     {
         title: `Royal Salute`,
@@ -211,10 +211,10 @@ export const displayProductContent = {
     title_4 : `The Glenlivet 12`,
     title_5 : `The Singleton`,
     title_6 : `Jameson`,
-    desc_a_1: `Red Label: A non-age-stated blend. It has been the best selling Scotch whisky in the world since 1945. It is primarily used for making mixed drinks. Black Label: Aged 12 years, it is one of the world's best-selling Scotch whiskies.`,
+    desc_a_1: `Red Label: A non-age-stated blend. It has been the best selling Scotch whisky in the world since 1945. It is primarily used for making mixed drinks. Black Label: Aged 12 years, it is one of the world's best-selling Scotch whiskies.`,
     desc_a_2: ``,
     desc_b_2: `It is made up of the finest old-aged malt and grain whiskies in Diageo's extensive portfolio. Casks from Cardhu, Clynelish, Benrinnes and more are hand-selected for this blend to ensure the highest quality.`,
-    desc_b_1: `Blue Label is the most prestigious whisky in Johnnie Walker's core range.`,
+    desc_b_1: `Blue Label is the most prestigious whisky in Johnnie Walker's core range.`,
     desc_c_1: `Smooth, balanced, and rich in character, The Glenlivet 12 is the gold standard of Speyside single malts. With its signature notes of ripe orchard fruits, honey, and a gentle oak finish, this whisky embodies the perfect harmony of tradition and refinement.`,
     desc_c_2: ``,
     desc_d_1: `The Glenlivet is more than just a whisky—it’s a legacy. Since 1824, we have set the standard for smooth, rich, and complex single malts, cherished by whisky lovers worldwide. Every sip tells a story of tradition, innovation, and an unwavering commitment to quality.

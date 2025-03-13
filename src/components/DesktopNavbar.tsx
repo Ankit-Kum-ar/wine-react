@@ -1,5 +1,4 @@
 import { NavLink } from "react-router-dom";
-import { Link } from "react-scroll";
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
