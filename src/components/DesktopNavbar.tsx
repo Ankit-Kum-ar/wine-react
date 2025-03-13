@@ -1,40 +1,78 @@
-import { NavLink } from "react-router-dom"
-import { Link } from "react-scroll"
+import { NavLink } from "react-router-dom";
+import { Link } from "react-scroll";
+import { useEffect, useRef } from "react";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
 
 const DesktopNavbar = () => {
-  return (
-    <div className="hidden md:flex items-center space-x-6">
-        <NavLink 
-            to="/"
-            className={({ isActive }: { isActive: boolean }) =>
-                isActive
-                    ? "text-white flex items-center gap-2"
-                    : "text-slate-400 flex items-center gap-2 hover:text-white" 
-            }
-        >
-            <span className="hidden lg:inline">Home</span>
-        </NavLink>
-        <NavLink
-            to="/product"
-            className={({ isActive }: { isActive: boolean }) =>
-                isActive
-                    ? "text-white flex items-center gap-2"
-                    : "text-slate-400 flex items-center gap-2 hover:text-white"
-            }
-        >
-            <span className="hidden lg:inline">Product</span>
-        </NavLink>
-        <Link
-            to="footer-section"
-            spy={true}
-            smooth={true}
-            duration={500}
-            className="text-slate-400 cursor-pointer flex items-center gap-2 hover:text-white"
-        >
-            <span className="hidden lg:inline">Contact</span>
-        </Link>
-    </div>
-  )
-}
+  const navRef = useRef<HTMLDivElement | null>(null);
 
-export default DesktopNavbar
+  useEffect(() => {
+    const navItems = gsap.utils.toArray(".nav-item");
+
+    gsap.fromTo(
+      navItems,
+      { opacity: 0, y: -20 },
+      {
+        opacity: 1,
+        y: 0,
+        duration: 0.8,
+        stagger: 0.2,
+        ease: "power3.out",
+        scrollTrigger: {
+          trigger: navRef.current,
+          start: "top 90%",
+          end: "top 70%",
+          toggleActions: "play none none reverse",
+        },
+      }
+    );
+  }, []);
+
+  return (
+    <div ref={navRef} className="hidden md:flex items-center space-x-6">
+      {/* Home Link */}
+      <NavLink
+        to="/"
+        className={({ isActive }) =>
+          `nav-item flex items-center gap-2 transition-transform duration-300 ${
+            isActive
+              ? "text-white border-b-2 border-[#FFF] scale-110"
+              : "text-slate-400 hover:text-white"
+          }`
+        }
+      >
+        <span className="hidden lg:inline">Home</span>
+      </NavLink>
+
+      {/* Product Link */}
+      <NavLink
+        to="/product"
+        className={({ isActive }) =>
+          `nav-item flex items-center gap-2 transition-transform duration-300 ${
+            isActive
+              ? "text-white border-b-2 border-[#FFF] scale-110"
+              : "text-slate-400 hover:text-white"
+          }`
+        }
+      >
+        <span className="hidden lg:inline">Product</span>
+      </NavLink>
+
+      {/* Contact Link (Scroll Link) */}
+      <Link
+        to="footer-section"
+        spy={true}
+        smooth={true}
+        duration={500}
+        className="nav-item text-slate-400 cursor-pointer flex items-center gap-2 hover:text-white transition-transform duration-300 hover:scale-110"
+      >
+        <span className="hidden lg:inline">Contact</span>
+      </Link>
+    </div>
+  );
+};
+
+export default DesktopNavbar;
