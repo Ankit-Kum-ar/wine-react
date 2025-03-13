@@ -29,7 +29,7 @@ const DisplayProduct: React.FC<DisplayProductProps> = ({
   const sectionsRef = useRef<HTMLDivElement[]>([]);
 
   useEffect(() => {
-    sectionsRef.current.forEach((section, index) => {
+    sectionsRef.current.forEach((section) => {
       gsap.fromTo(
         section,
         { opacity: 0, y: 50 },
